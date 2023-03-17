@@ -35,7 +35,7 @@ using static Scripts.Structure.WeaponDefinition.AmmoDef.GraphicDef.LineDef.Textu
 using static Scripts.Structure.WeaponDefinition.AmmoDef.GraphicDef.DecalDef;
 using static Scripts.Structure.WeaponDefinition.AmmoDef.DamageScaleDef.DamageTypes.Damage;
 
-namespace Scripts
+namespace Scripts //video games!
 { // Don't edit above this line
     partial class Parts
     {
