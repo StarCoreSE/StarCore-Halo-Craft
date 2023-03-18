@@ -37,7 +37,7 @@ using static Scripts.Structure.WeaponDefinition.AmmoDef.DamageScaleDef.DamageTyp
 
 namespace Scripts
 { // Don't edit above this line
-    partial class Parts //test
+    partial class Parts //test2
     {
 
         private AmmoDef longsword_shot_Main => new AmmoDef // StarCore AMS I
