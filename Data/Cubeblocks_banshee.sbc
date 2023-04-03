@@ -10,7 +10,7 @@
 			</Id>
 			<DisplayName>Banshee Hangar Bay</DisplayName>
 
-      <Description>Launches 5 banshee fighters that will return to you after about a minute. [MaxActive 5 per block]</Description>
+      <Description>Launches 5 banshee fighters that will return to you after about a minute. [MaxActive 5 per block] [MinRange 500m]</Description>
 			
 			<Icon>Textures\Icons\shee.png</Icon>
 			<CubeSize>Large</CubeSize>
