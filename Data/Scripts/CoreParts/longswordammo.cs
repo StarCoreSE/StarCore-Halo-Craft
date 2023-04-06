@@ -447,7 +447,7 @@ namespace Scripts
                         // Start/End thresholds -- both conditions are evaluated before activation, use Ignore to skip
                         Start1Value = 501,
                         Start2Value = 0,
-                        End1Value = 500,
+                        End1Value = 700,
                         End2Value = 0,
                         End3Value = 0, 
                         
