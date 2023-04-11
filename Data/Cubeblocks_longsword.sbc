@@ -31,6 +31,7 @@
       </Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" />
 			</MountPoints>
 			<BuildProgressModels>
 			</BuildProgressModels>

@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<CubeBlocks>
 	    	
-		<!-- COME ON AND SLAM -->
+		<!-- banshee -->
 		<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
 			<Id>
 				<TypeId>ConveyorSorter</TypeId>
@@ -31,6 +31,14 @@
       </Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="10" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="10" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="10" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="10" EndY="1.5" />
+        <MountPoint Side="Front" StartX="0" StartY="3.5" EndX="10" EndY="5" />
+
 			</MountPoints>
 			<BuildProgressModels>
 			</BuildProgressModels>
