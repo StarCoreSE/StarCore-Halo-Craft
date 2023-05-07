@@ -524,6 +524,7 @@ namespace Scripts
                     [ProtoMember(4)] internal bool EnableOverload;
                     [ProtoMember(5)] internal bool AlternateUi;
                     [ProtoMember(6)] internal bool DisableStatus;
+                    [ProtoMember(7)] internal float RateOfFireMin;
                 }
 
 
