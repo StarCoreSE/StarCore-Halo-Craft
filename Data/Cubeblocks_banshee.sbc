@@ -27,7 +27,7 @@
         <Component Subtype="Computer" Count="120" />
         <Component Subtype="InteriorPlate" Count="240" />
         <Component Subtype="Construction" Count="280" />
-        <Component Subtype="SteelPlate" Count="6000" />
+        <Component Subtype="SteelPlate" Count="3000" />
       </Components>
 			<CriticalComponent Index="0" Subtype="Computer"/>
 			<MountPoints>
@@ -58,7 +58,7 @@
 			<MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>22</BuildTimeSeconds>
+            <BuildTimeSeconds>220</BuildTimeSeconds>
             <OverlayTexture>Textures\GUI\Screens\AWP_TurretOverlay_Universal.dds</OverlayTexture>
             <WeaponDefinitionId Subtype="banshee" />
             <InventoryMaxVolume>1.056</InventoryMaxVolume>
