@@ -89,7 +89,7 @@
       <MaxDistance>500</MaxDistance>
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>3</DynamicMusicAmount>
-      <Volume>1</Volume>
+      <Volume>0.2</Volume>
       <Loopable>false</Loopable>
       <PreventSynchronization>0</PreventSynchronization>
       <Waves>
