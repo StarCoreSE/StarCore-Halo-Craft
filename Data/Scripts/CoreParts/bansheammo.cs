@@ -2243,14 +2243,14 @@ namespace Scripts //video games!
             AmmoAudio = new AmmoAudioDef
             {
                 TravelSound = "", // SubtypeID for your Sound File. Travel, is sound generated around your Projectile in flight
-                HitSound = "bansheeHit",
+                HitSound = "",
                 ShotSound = "bansheePlasmaShoot",
-                ShieldHitSound = "bansheeHit",
+                ShieldHitSound = "",
                 PlayerHitSound = "",
-                VoxelHitSound = "bansheeHit",
+                VoxelHitSound = "",
                 FloatingHitSound = "",
                 HitPlayChance = 1f,
-                HitPlayShield = true,
+                HitPlayShield = false,
             },
             Ejection = new EjectionDef
             {
