@@ -611,7 +611,7 @@ namespace Scripts
 
                         // Target navigation behavior 
                         Orbit = true, // Orbit the target
-                        OrbitRadius = 4000, // The orbit radius to extend between the projectile and the target (target volume + this value)
+                        OrbitRadius = 2000, // The orbit radius to extend between the projectile and the target (target volume + this value)
                         OffsetMinRadius = 0, // Min Radius to offset from target.  
                         OffsetMaxRadius = 0, // Max Radius to offset from target.  
                         OffsetTime = 0, // How often to change the offset direction.
