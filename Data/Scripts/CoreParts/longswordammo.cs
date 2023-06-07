@@ -90,11 +90,11 @@ namespace Scripts
                     Interval = 10, // Time between spawning fragments, in ticks, 0 means every tick, 1 means every other
                     StartTime = 0, // Time delay to start spawning fragments, in ticks, of total projectile life
                     MaxSpawns = 10, // Max number of fragment children to spawn
-                    Proximity = 900, // Starting distance from target bounding sphere to start spawning fragments, 0 disables this feature.  No spawning outside this distance
+                    Proximity = 1300, // Starting distance from target bounding sphere to start spawning fragments, 0 disables this feature.  No spawning outside this distance
                     ParentDies = true, // Parent dies once after it spawns its last child.
                     PointAtTarget = true, // Start fragment direction pointing at Target
                     PointType = Lead, // Point accuracy, Direct (straight forward), Lead (always fire), Predict (only fire if it can hit)
-                    DirectAimCone = 15f, //Aim cone used for Direct fire, in degrees
+                    DirectAimCone = 60f, //Aim cone used for Direct fire, in degrees
                     GroupSize = 1, // Number of spawns in each group
                     GroupDelay = 600, // Delay between each group.
                 },
@@ -775,7 +775,7 @@ namespace Scripts
                             new WeightedIdListDef
                             {// If all valid entries (below MaxRuns) role a 0 (i.e. weights are disabled), then the entry with the lowest current "Runs" will be selected, if two or more share lowest runs then the winner is decided by the order below.
                                 ApproachId = 2,
-                                MaxRuns = 4, // 0 means unlimited, defines how many times this entry can return true. 
+                                MaxRuns = 3, // 0 means unlimited, defines how many times this entry can return true. 
                                 Weight = Random(3, 10),
                             },
                             new WeightedIdListDef
@@ -1599,7 +1599,7 @@ namespace Scripts
                 MaxLifeTime = 900, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 AccelPerSec = 0,
                 DesiredSpeed = 300, // voxel phasing if you go above 5100
-                MaxTrajectory = 900f,
+                MaxTrajectory = 1300f,
                 DeaccelTime = 0, // 0 is disabled, a value causes the projectile to come to rest overtime, (Measured in game ticks, 60 = 1 second)
                 GravityMultiplier = 0f, // Gravity multiplier, influences the trajectory of the projectile, value greater than 0 to enable.
                 SpeedVariance = Random(start: 0, end: 0), // subtracts value from DesiredSpeed
@@ -2315,10 +2315,10 @@ namespace Scripts
                 },
                 EndOfLife = new EndOfLifeDef
                 {
-                    Enable = false,
-                    Radius = 1.5f, // Meters
-                    Damage = 10000f,
-                    Depth = 1.5f, 
+                    Enable = true,
+                    Radius = 0f, // Meters
+                    Damage = 0f,
+                    Depth = 0f, 
                     MaxAbsorb = 0f,
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius
@@ -2481,7 +2481,7 @@ namespace Scripts
                     WidthVariance = Random(start: 0f, end: 0f), // adds random value to default width (negatives shrinks width)
                     Tracer = new TracerBaseDef
                     {
-                        Enable = true,
+                        Enable = false,
                         Length = 1f,
                         Width = 0.5f,
                         Color = Color(red: 18, green: 25, blue: 30f, alpha: 4),
@@ -2510,7 +2510,7 @@ namespace Scripts
                     },
                     Trail = new TrailDef
                     {
-                        Enable = true,
+                        Enable = false,
                         Textures = new[] {
                             "ProjectileTrailLine",
                         },
