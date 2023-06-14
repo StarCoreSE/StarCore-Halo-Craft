@@ -51,7 +51,7 @@
 			<MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>22</BuildTimeSeconds>
+            <BuildTimeSeconds>220</BuildTimeSeconds>
             <OverlayTexture>Textures\GUI\Screens\AWP_TurretOverlay_Universal.dds</OverlayTexture>
             <WeaponDefinitionId Subtype="longsword" />
             <InventoryMaxVolume>1.056</InventoryMaxVolume>
