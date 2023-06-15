@@ -194,6 +194,7 @@
       </Waves>
     </Sound>
 
+    
 
     <Sound>
       <Id>
@@ -254,6 +255,69 @@
         </Wave>
       </Waves>
     </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>LongswordCloseNuked</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>2000</MaxDistance>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1.5</Volume>
+      <Loopable>false</Loopable>
+      <!--<PitchVariation>50</PitchVariation>-->
+      <PreventSynchronization>0</PreventSynchronization>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="50" Distance="215" Sound="FarNuked" />
+      </DistantSounds>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Nuke\LongswordCloseNuked.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>LongswordFarNuked</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>2000</MaxDistance>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>2</Volume>
+      <Loopable>false</Loopable>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Nuke\LongswordFarNuked.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>LongswordHit</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>2000</MaxDistance>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>0.1</Volume>
+      <Loopable>true</Loopable>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Nuke\LongswordTorpMissileImpact.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
 
   </Sounds>
 </Definitions>

@@ -225,6 +225,9 @@ namespace Scripts {
                 longsword_napalm_base,
                 longsword_napalm_timespawn,
                 longsword_napalm_frag,
+                Longsword_NUKE_Acceleration,
+                Longsword_NUKE_Terminal,
+                Longsword_NUKE_Frag,
                 
                 
                 // Must list all primary, shrapnel, and pattern ammos.
